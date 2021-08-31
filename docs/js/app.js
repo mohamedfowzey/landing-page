@@ -34,7 +34,7 @@ for (let x of v_sections){
     //creating new link
     const newli = document.createElement('li');
     newli.id = x.id;
-    newli.innerHTML = `<a class = 'menu__link'>section${i}</a>`
+    newli.innerHTML = `<a class = 'menu__link'>${x.firstElementChild.firstElementChild.innerHTML}</a>`
     
     
 
